@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class TomatoScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+ public int AddNumber(int a,int b){
+return a*b;
+ }
     void Start()
     {
-        
+        int i;
+        for(i=1;i<10;i++){
+            int result =AddNumber(12,5);
+            Debug.Log("i");
+        }
     }
 
     // Update is called once per frame
